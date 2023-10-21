@@ -1,0 +1,15 @@
+.input {
+  padding: 12px 30px;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 30px;
+  font-size: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  position: relative;
+  left: 0px;
+}
+.SearchInp {
+  display: flex;
+}

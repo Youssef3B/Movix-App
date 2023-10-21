@@ -1,0 +1,111 @@
+.title {
+  position: relative;
+  top: 100px;
+  padding-left: 16%;
+  padding-right: 16%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title h2 {
+  font-size: 32px;
+  color: white;
+}
+.select {
+  background-color: #173d77;
+  width: 200px;
+  padding: 12px 10px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  outline: none;
+}
+
+.select option {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding-left: 16%;
+  padding-right: 16%;
+  padding-bottom: 40px;
+  position: relative;
+  top: 140px;
+}
+@media (max-width: 1208px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 40px;
+    position: relative;
+    top: 140px;
+  }
+  title {
+    position: relative;
+    top: 100px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 1608px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 40px;
+    position: relative;
+    top: 140px;
+  }
+  .title {
+    position: relative;
+    top: 100px;
+    padding-left: 12%;
+    padding-right: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 968px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 40px;
+    position: relative;
+    top: 140px;
+  }
+  title {
+    position: relative;
+    top: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+}

@@ -1,0 +1,39 @@
+.Categorie {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Categorie h3 {
+  color: white;
+  font-size: 42px;
+}
+.cat {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: white;
+}
+.cat span {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+.cat .active {
+  background: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+}
+.cat .active2 {
+  background: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+}

@@ -1,0 +1,29 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head h3 {
+  font-size: 28px;
+  color: white;
+}
+.head .CategorieTitle {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .CategorieTitle span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 700;
+}
+.active {
+  background: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+}
